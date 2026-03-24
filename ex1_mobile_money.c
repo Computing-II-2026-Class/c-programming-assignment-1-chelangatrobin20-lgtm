@@ -1,23 +1,25 @@
-/* Name: Your Full Name */
-/* Student Number: Your Registration Number */
+o/* Name: CHELANGAT ROBIN */
+/* Student Number: 25/U/BIE/05290/PE */
 
 #include <stdio.h>
-
 int main() {
-    int units;
-    float cost_per_unit, total_bill;
+    float amount, fee_percent, fee, total;
 
-    printf("Enter units consumed: ");
-    scanf("%d", &units);
+    printf("Enter amount to send: ");
+    scanf("%f", &amount);
 
-    printf("Enter cost per unit: ");
-    scanf("%f", &cost_per_unit);
+    printf("Enter transaction fee (%%): ");
+    scanf("%f", &fee_percent);
 
-    total_bill = units * cost_per_unit;
+    fee = (fee_percent / 100) * amount;
+    total = amount + fee;
 
-    printf("\nTotal bill: %.2f UGX\n", total_bill);
+    printf("\nTransaction fee: %.2f UGX\n", fee);
+    printf("Total deducted: %.2f UGX\n", total);
+
+    return 0;
+}
 
     
-}
-return 0;
-}
+
+
