@@ -1,6 +1,5 @@
 o/* Name: CHELANGAT ROBIN */
 /* Student Number: 25/U/BIE/05290/PE */
-
 #include <stdio.h>
 int main() {
     float amount, fee_percent, fee, total;
