@@ -5,8 +5,7 @@
 
 int main(void)
 {
-    
-    float cost_per_unit, total_bill;
+   float cost_per_unit, total_bill;
 
     printf("Enter units consumed: ");
     scanf("%d", &units);
