@@ -18,7 +18,5 @@ int main(void)
 
     printf("\nFuel efficiency: %.2f km/l\n", efficiency);
 
-    
-
-    return 0;
+   return 0;
 }
