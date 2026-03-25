@@ -1,5 +1,5 @@
-/* Name: CHELANGAT ROBIN */
-/* Student Number:25/U/05290/PE*/
+// Name: CHELANGAT ROBIN
+//Student Number:25/U/05290/PE
 
 #include <stdio.h>
 
