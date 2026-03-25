@@ -1,5 +1,5 @@
-/* Name: CHELANGAT ROBIN */
-/* Student Number: 25/U/BIE/05290/PE */
+//Name: CHELANGAT ROBIN
+// Student Number: 25/U/BIE/05290/PE 
 #include <stdio.h>
 int main() {
     int amount_to_send;
